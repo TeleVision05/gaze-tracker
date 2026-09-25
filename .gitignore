@@ -1,0 +1,56 @@
+# Virtual environments
+venv/
+.venv/
+venv_*/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Node
+node_modules/
+
+# Editors / OS
+.cursor/
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Model weights (dlib shape predictor lives here, ~100 MB; see README)
+*.dat
+*.bz2
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+
+# Media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Generated output dumps
+output/
+outputs/
+*.csv
+calibration_*.json
